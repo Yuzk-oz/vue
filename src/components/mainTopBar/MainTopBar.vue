@@ -75,11 +75,11 @@ export default {};
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-   text-align: left;
+  text-align: left;
 }
 .top .center .box img {
-  width: 20%;
-  height: 60%;
+  width: 17%;
+  height: 70%;
   color: #aaa;
   vertical-align: center;
 }

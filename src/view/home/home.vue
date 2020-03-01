@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import swiper from "../../components/swiper/Swiper.vue";
+import swiper from "../../components/swiper/Swiper";
 import homevideo from "./home_video/homevideo";
 export default {
   components: {
