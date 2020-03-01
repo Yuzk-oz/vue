@@ -122,6 +122,7 @@ export default {
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content:space-between;
+
 }
 </style>

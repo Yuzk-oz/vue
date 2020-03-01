@@ -14,11 +14,11 @@
     <ul class="slide-pages">
       <li @click="goto(prevIndex)" class="lt">&lt;</li>
       <li v-for="(item, index) in slides" @click="goto(index)" :key="index">
-        <a :class="{on: index === nowIndex}">&#927;</a>
+        <a :class="{on: index === nowIndex}">&bull;</a>
       </li>
+
       <li @click="goto(nextIndex)" class="gt">&gt;</li>
     </ul>
-
   </div>
 </template>
 
@@ -96,7 +96,6 @@ export default {
   width: 100%;
   height: 200px;
   overflow: hidden;
-
 }
 
 .slide-img {
@@ -111,32 +110,33 @@ export default {
 .slide-pages {
   position: absolute;
   bottom: 15px;
-  left:0;
+  left: 0;
   right: 0;
   margin: auto 5px;
-font-style: 10px;
-
+  text-align: center;
 }
 .slide-pages li {
   display: inline-block;
   padding: 0 10px;
   cursor: pointer;
   color: beige;
-  font-size:1rem;
+  font-size: 2em;
 }
+
 .slide-pages li .on {
   color: deeppink;
-  text-decoration: underline;
+  text-decoration: none;
 }
-.lt{
+
+.lt {
   position: absolute;
   left: 0;
-  top:-320%;
+  top: -170%;
+  font-size: 12px;
 }
-.gt{
-
+.gt {
   position: absolute;
   right: 0;
-  top:-320%;
+  top: -170%;
 }
 </style>
