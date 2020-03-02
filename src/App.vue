@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <maintopbar></maintopbar>
-    <router-view/>
+   <keep-alive> <router-view/></keep-alive>
   </div>
 </template>
 

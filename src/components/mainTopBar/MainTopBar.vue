@@ -14,19 +14,19 @@
       </a>
     </div>
     <div class="bar">
-      <router-link to="/home" tag="a">
+      <router-link to="/home" >
         <span>首页</span>
       </router-link>
-      <router-link to="/animate" tag="a">
+      <router-link to="/animate" >
         <span>动画</span>
       </router-link>
-      <router-link to="/anime" tag="a">
+      <router-link to="/anime" >
         <span>番剧</span>
       </router-link>
-      <router-link to="/native" tag="a">
+      <router-link to="/native" >
         <span>国创</span>
       </router-link>
-      <router-link to="/music" tag="a">
+      <router-link to="/music" >
         <span>音乐</span>
       </router-link>
     </div>
@@ -51,7 +51,7 @@ export default {};
   line-height: 4em;
   display: flex;
   margin-bottom: 10px;
-  font-size: 0.5em;
+  font-size: 0.5em ;
   margin-bottom: 20px;
 }
 
@@ -108,6 +108,8 @@ export default {};
 .bar a {
   flex: 1;
   text-align: left;
+  color: #757575;
+  font-size: 0.8666rem;
 }
 .bar span {
   padding: 5px;
